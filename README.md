@@ -2,10 +2,11 @@
 A programming assignment on retrieving and cleaning data using R in partial fulfillment of Coursera's data cleaning course.
 
 #### Overview
-This project performs the desired analysis using the main script, _run_analysis.R_.
+This project performs the desired analysis using the main script, _run_analysis.R_. Materials used for this project was retrieved from this [repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
-#### Assumptions
-This project assumes that the Human Activity Recognition Using Smartphones Dataset experiment data set [contained in this link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) is already unzipped in the _same directory_ this script resides in.
+#### Assumptions and Installation
+1. This project assumes that the Human Activity Recognition Using Smartphones Dataset experiment data set [contained in this link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) is already unzipped in the _same directory_ this script resides in.
+2. 
 
 #### Algorithm Overview
 1. Load the essential libraries dplyr and reshape2.
