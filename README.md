@@ -16,10 +16,10 @@ This project performs the desired analysis using the main script, _run_analysis.
   * Subject Data *(subject_(test|train).txt)*
   * Activity Performed *(y_(test|train).txt)*
   * Features Measured *(X_(test|train).txt)*
-3. For each group of isolated data, merge their respective training and data set.
+3. For each group of isolated data, merge their respective training and data set. Print out the first data set as instructed into *merged.txt*.
 4. Load the features measured into R _(features.txt)_.
 5. Retrieve and rename(format) features of interest (mean and std).
 6. Bind all three sub data sets and label the reconstructed table using the renamed column names.
 7. Begin melting and casting the table based on two factors _subjectId_ and _activity_.
 8. Load the activity labels in *activity_labels.txt* and mutate the column in the reconstructed table for proper labeling.
-9. Print the casted table to _tidy.txt_.
+9. Print the casted table to *_tidy.txt_* as instructed.
