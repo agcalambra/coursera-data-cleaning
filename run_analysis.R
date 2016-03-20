@@ -30,7 +30,7 @@ mergedTable <- cbind(finalSubjects, finalActivities, finalFeatureObs)
 write.table(mergedTable, "merged.txt", row.names = FALSE, quote = FALSE)
 
 # Regular expressions to extract features for mean and std
-meanStdRegex = ".*mean().*|.*std().*"
+meanStdRegex <- ".*mean().*|.*std().*"
 
 # Load contents of features.txt
 # These features describe what was being measured for each
