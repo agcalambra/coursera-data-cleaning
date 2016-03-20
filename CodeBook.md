@@ -2,7 +2,7 @@
 This codebook describes the output data from *run_analysis.R* placed within *tidy.txt*.
 
 #### Comprehensive Notes
-A more comprehensive description of the data set can be found in the [Human Activity Recognition Using Smartphones Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), inside *features_info.txt*.
+A more comprehensive description of the data set can be found in the [Human Activity Recognition Using Smartphones Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), inside *features_info.txt*. Materials used for this project was retrieved from this [repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 #### Algorithm Overview
 1. Load the essential libraries dplyr and reshape2.
