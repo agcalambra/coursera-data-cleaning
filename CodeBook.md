@@ -19,9 +19,9 @@ A more comprehensive description of the data set can be found in the [Human Acti
 9. Print the casted table to _tidy.txt_.
 
 #### Key Columns and Identifiers
-The following columns uniquely identify summarized information use to group the data.
-  * subjectId - A unique ID of a volunteer in the [Human Activity Recognition Using Smartphones Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) experiment. The values range from 1-30, representing the 30 volunteers who participated in the experiment.
-  * activity - A specific activity executed by a volunteer and measured during the experiment. The column *activity* can accomodate any of the values below, based on the [Human Activity Recognition Using Smartphones Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) data set provided with the project instructions in *activity_labels.txt*.
+The following columns uniquely identify summarized information used to group the data.
+  * subjectId - A unique ID of a volunteer in the [Human Activity Recognition Using Smartphones Experiment](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). The values range from 1-30, representing the 30 volunteers who participated in the experiment.
+  * activity - A specific activity executed by a volunteer and measured during the experiment. The column *activity* can accomodate any of the values below, based on the [Human Activity Recognition Using Smartphones Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) provided with the project instructions in *activity_labels.txt*.
      * WALKING
      * WALKING_UPSTAIRS
      * WALKING_DOWNSTAIRS
