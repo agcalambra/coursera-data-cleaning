@@ -5,8 +5,10 @@ A programming assignment on retrieving and cleaning data using R in partial fulf
 This project performs the desired analysis using the main script, _run_analysis.R_. Materials used for this project was retrieved from this [repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 #### Assumptions and Installation
-1. This project assumes that the Human Activity Recognition Using Smartphones Dataset experiment data set [contained in this link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) is already unzipped in the _same directory_ this script resides in.
-2. 
+1. This project assumes that the Human Activity Recognition Using Smartphones Dataset experiment data set [contained in this link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) is already unzipped in the _same directory_ this script resides in, under its original "UCI HAR Dataset" root folder.
+2. Load *run_analysis.R* using *source()*.
+3. Call the *analyze_uci_har_data()* function to run the analysis.
+4. The output file *tidy.txt* will show in the same directory as *run_analysis.R*.
 
 #### Algorithm Overview
 1. Load the essential libraries dplyr and reshape2.
