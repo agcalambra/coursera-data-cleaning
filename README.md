@@ -9,6 +9,8 @@ This project performs the desired analysis using the main script, _run_analysis.
 2. Load *run_analysis.R* using *source()*.
 3. The output files *merged.txt* and *tidy.txt* will show up in the same directory as *run_analysis.R*.
 
+Note that due to the large size of the first data set (*merged.txt*), it is intentionally omitted from the push. However, as indicated above, it will be generated as soon as the script is sourced into the R environment.
+
 #### Algorithm Overview
 1. Load the essential libraries dplyr and reshape2.
 2. For each of the training and test data sets, load the corresponding isolated data into R for processing.
