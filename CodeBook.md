@@ -1,6 +1,9 @@
 # CODEBOOK: Getting and Cleaning Data Course Project
 This codebook describes the output data from *run_analysis.R* placed within *tidy.txt*.
 
+#### Comprehensive Notes
+A more comprehensive description of the data set can be found in the [Human Activity Recognition Using Smartphones Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), inside *features_info.txt*.
+
 #### Algorithm Overview
 1. Load the essential libraries dplyr and reshape2.
 2. For each of the training and test data sets, load the corresponding isolated data into R for processing.
