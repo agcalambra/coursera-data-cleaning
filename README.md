@@ -7,8 +7,7 @@ This project performs the desired analysis using the main script, _run_analysis.
 #### Assumptions and Installation
 1. This project assumes that the Human Activity Recognition Using Smartphones Dataset experiment data set [contained in this link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) is already unzipped in the _same directory_ this script resides in, under its original "UCI HAR Dataset" root folder.
 2. Load *run_analysis.R* using *source()*.
-3. Call the *analyze_uci_har_data()* function to run the analysis.
-4. The output files *merged.txt* and *tidy.txt* will show up in the same directory as *run_analysis.R*.
+3. The output files *merged.txt* and *tidy.txt* will show up in the same directory as *run_analysis.R*.
 
 #### Algorithm Overview
 1. Load the essential libraries dplyr and reshape2.
